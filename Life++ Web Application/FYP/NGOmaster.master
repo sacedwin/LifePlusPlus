@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NGOmaster.master.cs" Inherits="NGOmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.sequence-min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/main-menu.js"></script>
+    <script src="js/template.js"></script>
+
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="NHomePage.aspx">
+                                <img src="img/FinalLogo.png" class="img-responsive" style="width: 250px; margin-top: -16px;" /></a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                            <ul class="nav navbar-nav">
+
+                                <li class=""><a href="NHomePage.aspx">Home</a></li>
+                                <li class=""><a href="NForum.aspx">Forum</a></li>
+                                <li class=""><a href="NSupportUs.aspx">Support Us</a></li>
+                                <li class=""></li>
+                                <li class="">
+                                    <asp:LinkButton ID="btnMyAccount" runat="server" Visible="True" OnClick="btnMyAccount_Click1">My Account</asp:LinkButton>
+                                </li>
+                                <li class="">
+                                    <asp:LinkButton ID="btnLogin" runat="server" OnClick="btnLogin_Click">Login</asp:LinkButton>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+
+
+
+            <!--footer-->
+            <footer id="footer">
+                <div class="footer-line">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                © Copyright Life++. All Rights Reserved
+                        <div class="credits">
+                            
+                            Designed by Team Life++
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--/ footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </form>
+</body>
+</html>

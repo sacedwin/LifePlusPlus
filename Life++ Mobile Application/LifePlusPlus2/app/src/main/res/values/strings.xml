@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LifePlusPlus</string>
+
+    <string-array name="rStatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widowed</item>
+        <item>Divorced</item>
+    </string-array>
+
+    <string-array name="bloodType">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="emergencyRelation">
+        <item>Parent/Guardian</item>
+        <item>Child</item>
+        <item>Friend</item>
+        <item>Spouse</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_blood_platelet_request">BloodPlateletRequestActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
