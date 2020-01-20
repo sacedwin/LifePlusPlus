@@ -56,7 +56,7 @@ public class BloodPlateletRequestActivity extends AppCompatActivity {
 
         home=(ImageButton)findViewById(R.id.btnHome);
 
-        db="jdbc:jtds:sqlserver://lifeplusplus.database.windows.net:1433;databaseName=fyp1;user=lifeplusplus;password=ITMajorProject1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;";//loginTimeout=30;";
+        db="jdbc:jtds:sqlserver://lifeplusplus.database.windows.net:1433;databaseName=fyp1;user= /*ENTER HERE*/ ;password= /*ENTER HERE*/ ;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;";//loginTimeout=30;";
         String z = "Loading complete";
         Boolean isSuccess = false;
         try
@@ -320,7 +320,7 @@ public class BloodPlateletRequestActivity extends AppCompatActivity {
 
 
                 try {
-                    URL url = new URL("https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + origin + "&destinations=" + destination + "&key=AIzaSyCN-DotpprhnjmZrnqpX1Sa-gZK8freYkc");
+                    URL url = new URL("https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + origin + "&destinations=" + destination + "&key= /*ENTER THE KEY HERE*/ ");
 
                     final HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setRequestMethod("POST");
