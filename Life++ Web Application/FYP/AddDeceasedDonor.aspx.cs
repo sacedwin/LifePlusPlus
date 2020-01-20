@@ -187,7 +187,7 @@ public partial class AddDeceasedDonor : System.Web.UI.Page
 		//string from = origin.Text;
 		//string to = destination.Text;
 
-		string url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + origin + "&destinations=" + destination + "&key=AIzaSyCN-DotpprhnjmZrnqpX1Sa-gZK8freYkc";
+		string url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + origin + "&destinations=" + destination + "&key= /*ENTER THE KEY HERE*/ ";
 
 		string requesturl = url.Replace('#', ' ');
 		int content = fileGetContents(requesturl);
